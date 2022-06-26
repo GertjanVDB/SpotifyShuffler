@@ -15,7 +15,6 @@ logger = logging.getLogger()
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth, SpotifyClientCredentials
 
-# scope = "user-library-read"
 scope = "playlist-modify-public"
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
 
