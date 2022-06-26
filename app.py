@@ -11,15 +11,6 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger()
 
-# CLIENT_ID = os.environ.get("CLIENT_ID")
-# CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
-# logger.debug(CLIENT_ID)
-# assert CLIENT_ID, "No client id in ENV"
-# assert CLIENT_SECRET, "No client secret in ENV"
-#
-
-
-
 
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth, SpotifyClientCredentials
